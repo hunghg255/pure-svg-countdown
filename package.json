@@ -1,0 +1,35 @@
+{
+  "name": "pure-svg-countdown",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Pure animated SVG countdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunghg255/pure-svg-countdown.git"
+  },
+  "keywords": [
+    "SVG",
+    "animation"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hunghg255/pure-svg-countdown/issues"
+  },
+  "homepage": "https://github.com/hunghg255/pure-svg-countdown#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "@vercel/node": "^3.0.3",
+    "eslint": "^8.48.0",
+    "eslint-config-sukka": "^3.0.4",
+    "eslint-plugin-import": "npm:eslint-plugin-i@^2.28.0-2",
+    "typescript": "^5.2.2"
+  },
+  "overrides": {
+    "has": "npm:@nolyfill/has@latest"
+  }
+}
